@@ -1,0 +1,17 @@
+train_env:
+  n_workers: 20 #note: you might want to increase it when running experiment 3
+  n_epochs: 100
+nnunet_env:
+  n_epochs: 100
+exp1:
+  main_dir: 'Lung+Tumour'
+  data_dir: 'Lung+Tumour/data'
+  save_dir: 'Lung+Tumour/results'
+exp2:
+  main_dir: 'Tumour2D'
+  data_dir: 'Tumour2D/data'
+  save_dir: 'Tumour2D/results'
+exp3:
+  main_dir: 'Tumour3D'
+  data_dir: 'Tumour3D/data'
+  save_dir: 'Tumour3D/results'
