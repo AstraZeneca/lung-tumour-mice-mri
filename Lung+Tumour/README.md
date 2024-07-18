@@ -1,7 +1,7 @@
 # Lung+Tumour Segmentation using 2D MRI
 Training the models for the task of segmenting both lung and tumour, exploring the importance of organ background. 
 
-To reproduce the experiment, you can run the following from the root directory:
+To reproduce the experiment, you can run the following from the root  directory:
 ### Setup
 ~~~
 python -m src.setup
